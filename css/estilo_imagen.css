@@ -1,0 +1,25 @@
+@media (min-width:1200px){
+
+    #fila1{
+        margin-top: 10px;
+    }
+    p{
+        padding-top: 1px;
+        font-size: 12px;
+        background: rgb(245, 168, 2);
+        height: 20px;
+    }
+}
+
+/*CONFIGURACIÓN DE TAMAÑO PHONE*/
+@media (max-width: 767px){
+    #fila1{
+        margin-top: 10px;
+    }
+    p{
+        padding-top: 1px;
+        font-size: 8px;
+        background: rgb(245, 168, 2);
+        height: 13px;
+    }
+}
