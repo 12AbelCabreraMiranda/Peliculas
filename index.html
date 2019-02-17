@@ -9,9 +9,14 @@
     <meta name="viewport" content= "width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimyn-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilo_imagen.css">
+    <link rel="stylesheet" href="css/Estilos.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
 </head>
 <body>
-    <h1 class="text-center">Las Mejores Películas en HD</h1>
+    <div class="navegacionTitulo">
+            <h1 id="titulo">Las Mejores Películas en HD</h1>
+    </div>
+
    <!--CONTENEDOR DE LOS SLIDE-->
     <div class="container-fluid" id="disenio_slider">        
         <div class="col-md-12">
@@ -43,9 +48,19 @@
         </div>
     </div>
 
-    <!--CONTENEDOR DE PELICULAS-->
 
-    <div class="container-fluid">
+
+    <!--CONTENEDOR DE PELICULAS-->
+    <div class="container-fluid" id="contenedorPeli">
+        <!--PELICULAS DESTACADAS-->
+        <div class="row" style="padding-bottom:20px; margin-bottom:15px; background:rgb(255, 217, 0)">
+            <h3  class="text-center">PELÍCULAS DESTACADAS</h3>
+            <div class="col-md-10 col-md-offset-1 ">
+                <img src="imgDestacado/destacado1.jpg" id="fotocambia" class="img-responsive">  
+            </div>
+            
+        </div>
+
         <!--FILA 1 DE PELICULAS-->
         <div class="row" id="fila1">
             <div class="col-md-3 col-xs-4 ">
@@ -128,11 +143,11 @@
             </div> 
 
         </div>
-
-        
     </div> 
  
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js" ></script>
+    <script src="js/main.js"></script>
+    <script src="js/imgDestacado.js"></script>
 </body>
 </html>
