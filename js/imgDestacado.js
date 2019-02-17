@@ -7,7 +7,7 @@ cont = cont % 2;
         document.getElementById("fotocambia").src="imgDestacado/destacado1.jpg";
         
     }else{
-            document.getElementById("fotocambia").src="imgDestacado/destacado2.jpg";
+            document.getElementById("fotocambia").src="imgDestacado/destacado3.jpg";
             
         }
         cont++;
