@@ -13,6 +13,39 @@
     ul{
         list-style:none;
         }
+    .modal{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.87);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        left: 0;
+
+    }
+    .modal__img{
+        
+        max-width: 90%;
+        width: 90%;
+
+    }
+    .modal__boton{
+        width: 50px;
+        height: 50px;
+        color: rgb(10, 10, 10);
+        font-weight: bold;
+        font-size: 25px;
+        font-family: monospace;
+        line-height: 50px;
+        text-align: center;
+        background: yellow;
+        border-radius: 50px;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
 
 
 
@@ -38,8 +71,9 @@
         height: auto;
         position: fixed;
         bottom: 0;
-        right: 15px;
+        right: 0;
         z-index: 999;
+        
     }
     .chat-button{
         width: 100%;
@@ -80,7 +114,7 @@
         height: auto;
         position: fixed;
         bottom: 0;
-        right: 15px;
+        right: 0;
         z-index: 999;
     }
     .chat-button{
@@ -100,3 +134,4 @@
         display: none;
     }
 }
+
