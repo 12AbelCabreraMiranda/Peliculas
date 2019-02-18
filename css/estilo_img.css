@@ -91,6 +91,7 @@
         background-color: #fff;
         display: none;
     }
+    /*ZOOM DE IMAGENES*/
 }
 @media (max-width: 767px){
     .galeria__item{
@@ -107,11 +108,11 @@
 
     /*ESTILOS FACEBOOK*/
     .chat-container{
+        
         margin: 0;
         padding: 0;
         width: 100%;
-        max-width: 340px;
-        height: auto;
+        max-width: 340px;        
         position: fixed;
         bottom: 0;
         right: 0;
@@ -127,7 +128,7 @@
         text-align: center;
         color: #fff;
     }
-    .chat-content{
+    .chat-content{        
         margin: 0;
         padding: 0;
         background-color: #fff;
