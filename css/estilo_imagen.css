@@ -1,5 +1,6 @@
 @media (min-width:1200px){
 
+    
     #titulo{
         text-align: center;
     }
@@ -18,6 +19,36 @@
     #disenio_slider{
         background-color: black;
         
+    }
+    
+    
+    /*ESTILOS FACEBOOK*/
+    .chat-container{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        max-width: 340px;
+        height: auto;
+        position: fixed;
+        bottom: 0;
+        right: 15px;
+        z-index: 999;
+    }
+    .chat-button{
+        width: 100%;
+        margin: 0;
+        cursor: pointer;
+        user-select: none;
+        padding: 4px 0;
+        background-color: #337AB7;
+        text-align: center;
+        color: #fff;
+    }
+    .chat-content{
+        margin: 0;
+        padding: 0;
+        background-color: #fff;
+        display: none;
     }
 }
 
@@ -39,4 +70,33 @@
         background: rgb(245, 168, 2);
         height: 13px;
     }
+
+        /*ESTILOS FACEBOOK*/
+        .chat-container{
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            max-width: 340px;
+            height: auto;
+            position: fixed;
+            bottom: 0;
+            right: 15px;
+            z-index: 999;
+        }
+        .chat-button{
+            width: 100%;
+            margin: 0;
+            cursor: pointer;
+            user-select: none;
+            padding: 4px 0;
+            background-color: #337AB7;
+            text-align: center;
+            color: #fff;
+        }
+        .chat-content{
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            display: none;
+        }
 }
