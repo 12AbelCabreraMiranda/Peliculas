@@ -6,4 +6,6 @@ $('.galeria__img').click(function(e){
     $('#modal__boton').click(function(){
         $('#modal').remove();
     })
+    //Pendiente programación: en tamaño maximo hace click y aparece el modal en tamaño movil y eso no debe 
+    //suceder, hay que eliminarlo
 })
