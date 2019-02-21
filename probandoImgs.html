@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Manejo Secuencial de Imagenes</title>
+<style>
+li {
+    float:  left;
+    list-style: none;
+    margin: 0 25px 25px 0;
+display: none;
+}
+</style>
+</head>
+<body>
+<a href="#" id="mostrar">Mostrar</a>  /  <a href="#" id="ocultar">Ocultar</a>
+    <ul>
+        <li><img src="https://www.lawebera.es/images/servicios-webera-boton.png"></li>
+        <li><img src="https://www.lawebera.es/images/servicios-webera-boton.png"></li>
+        <li><img src="https://www.lawebera.es/images/servicios-webera-boton.png"></li>
+        <li><img src="https://www.lawebera.es/images/servicios-webera-boton.png"></li>
+        <li><img src="https://www.lawebera.es/images/servicios-webera-boton.png"></li>
+        <li><img src="https://www.lawebera.es/images/servicios-webera-boton.png"></li>
+        <li><img src="https://www.lawebera.es/images/servicios-webera-boton.png"></li>
+        <li><img src="https://www.lawebera.es/images/servicios-webera-boton.png"></li>
+    </ul>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script>
+$(document).ready(function() {
+    var lista = $('li').hide();
+    $('#mostrar').click(function() {
+            var i = 0;
+            (function mostrarimg() {
+                lista.eq(i++).fadeIn(400, mostrarimg);
+            })();
+    });
+    $('#ocultar').click(function() {
+            var i = $('li').size();
+            (function ocultarimg() {
+                lista.eq(--i).fadeOut(200, ocultarimg);
+            })();
+    });
+});
+</script>
+</body>
+</html>
