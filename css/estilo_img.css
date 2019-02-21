@@ -112,11 +112,10 @@
         margin: 0;
         padding: 0;
         width: 100%;
-        max-width: 340px;        
+        max-width: 300px;        
         position: fixed;
         bottom: 0;
-        right: 20px;
-        left: 5px;
+        right: 20px;        
         z-index: 999;
     }
     .chat-button{
