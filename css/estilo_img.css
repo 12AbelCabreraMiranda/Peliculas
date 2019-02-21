@@ -59,6 +59,9 @@
         background-color: rgb(253, 253, 253);
         display: none;
     }
+    .chat-messenger{
+        display: none;
+    }
 
 
     /*ZOOM DE IMAGENES*/
@@ -115,9 +118,9 @@
         max-width: 340px;        
         position: fixed;
         bottom: 0;
-        right: 0;     
-        left: 0;   
+        right: 0;               
         z-index: 999;
+        
     }
     .chat-button{
         width: 100%;
@@ -128,7 +131,7 @@
         background-color: #337AB7;
         text-align: center;
         color: #fff;
-        
+        display: none;
     }
     .chat-content{        
         margin: 0;
@@ -138,14 +141,14 @@
     }
     /*ICONO MESSENGER*/
     .chat-messenger{
-        display: none;
+        display: show;
         margin: 0;
         padding: 0;
         width: 100%;
         max-width: 340px;
         height: auto;
         position: fixed;
-        bottom: 0;
+        bottom: 100px;
         right: 10px;
         z-index: 999;
         
@@ -185,6 +188,13 @@
         position: absolute;
         right: 10px;
         top: 10px;
+    }
+
+    footer{
+        background:black;
+        color: white;
+        padding: 5px;
+        padding-left: 15px;
     }
     
 
