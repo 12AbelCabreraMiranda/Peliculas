@@ -115,7 +115,8 @@
         max-width: 340px;        
         position: fixed;
         bottom: 0;
-        right: 0;        
+        right: 0;     
+        left: 0;   
         z-index: 999;
     }
     .chat-button{
