@@ -39,7 +39,7 @@
         height: auto;
         position: fixed;
         bottom: 0;
-        right: 0;
+        right: 15px;
         z-index: 999;
         
     }
@@ -59,6 +59,8 @@
         background-color: rgb(253, 253, 253);
         display: none;
     }
+
+
     /*ZOOM DE IMAGENES*/
     .galeria__img{
         -webkit-transform: scale(1,1);
@@ -78,6 +80,12 @@
         -moz-transition-duration: 1000ms;
 
         
+    }
+    footer{
+        background:black;
+        color: white;
+        padding: 5px;
+        padding-left: 15px;
     }
 }
 
@@ -107,7 +115,8 @@
         max-width: 340px;        
         position: fixed;
         bottom: 0;
-        right: 0;
+        right: 20px;
+        left: 20px;
         z-index: 999;
     }
     .chat-button{
@@ -119,12 +128,27 @@
         background-color: #337AB7;
         text-align: center;
         color: #fff;
+        
     }
     .chat-content{        
         margin: 0;
         padding: 0;
         background-color: #fff;
         display: none;
+    }
+    /*ICONO MESSENGER*/
+    .chat-messenger{
+        display: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        max-width: 340px;
+        height: auto;
+        position: fixed;
+        bottom: 0;
+        right: 10px;
+        z-index: 999;
+        
     }
 
 
